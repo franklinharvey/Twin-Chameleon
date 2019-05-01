@@ -45,6 +45,7 @@ html {
 
 .btn-link:hover {
   color: midnightblue;
+  text-decoration: none;
   background: none;
 }
 
