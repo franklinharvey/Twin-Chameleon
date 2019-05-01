@@ -26,6 +26,10 @@ html {
   background: MidnightBlue;
 }
 
+a {
+  text-decoration: none;
+}
+
 .top-logo {
   margin-top: 64px;
 }
@@ -41,12 +45,10 @@ html {
 
 .btn-link {
   color: #000;
-  text-decoration: none;
 }
 
 .btn-link:hover {
   color: midnightblue;
-  text-decoration: none;
   background: none;
 }
 
