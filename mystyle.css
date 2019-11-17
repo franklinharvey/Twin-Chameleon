@@ -75,6 +75,16 @@ a.disabled, .nav-link.disabled, .dropdown-item.disabled, .disabled {
   font-weight: 300;
 }
 
+#mc-embedded-subscribe {
+  transition: border-color 500ms, color 200ms;
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+
+#mc-embedded-subscribe:hover {
+  color: midnightblue;
+  border: 1px solid midnightblue;
+}
+
 input {
   width: 100%;
   border: none;
