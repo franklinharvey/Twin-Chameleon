@@ -8,102 +8,103 @@ html {
   }
 }
 
-body,
-html {
-  margin: 0px;
-  height: 100vh;
-  color: MidnightBlue;
+body:before, body:after {
+    content: "";
+    position: fixed;
+    background: #232728;
+    left: 0;
+    right: 0;
+    height: 10px;
+}
+body:before {
+    top: 0;
+}
+body:after {
+    bottom: 0;
+}
+body {
+    border-left: 10px solid #232728;
+    border-right: 10px solid #232728;  
 }
 
-::-moz-selection {
-  /* Code for Firefox */
-  color: MintCream;
-  background: MidnightBlue;
+.nav-link, a {
+  color: #232728;
+  transition: color 200ms;
 }
 
-::selection {
-  color: MintCream;
-  background: MidnightBlue;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-.top-logo {
-  margin-top: 64px;
-}
-
-.top-half, .bottom-half {
-  height: 50vh;
-}
-
-.social-icons {
-  margin-bottom: 64px;
-  background-color: white;
-}
-
-.btn-link {
-  color: #000;
-}
-
-.btn-link:hover {
+.nav-link:hover, a:hover {
   color: midnightblue;
-  background: none;
 }
 
-.bg-1 {
-  /* The image used */
-  background-image: url("https://i.imgur.com/l7MSkya.jpg");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  overflow: hidden;
-
-  /* Full height */
-  height: 100%;
+.fab-spacer {
+  margin-right: 8px;
+  min-width: 20px;  
 }
 
-.bg-2 {
-  /* The image used */
-  background-image: url("https://i.imgur.com/baKDdvu.jpg");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: auto;
-
-  overflow: hidden;
-
-  /* Full height */
-  height: 100%;
+.social-icon {
+  font-size: 2em;
 }
 
-.bg-3 {
-  /* The image used */
-  background-image: url("https://i.imgur.com/vRcesW1.jpg");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  overflow: hidden;
-
-  /* Full height */
-  height: 100%;
+.sign-up-box {
+  width: 100vw;
+  margin-top: 24px;
+  background-color: #232728;
+  /* height: 100px; */
+  left: 0px;
+  position: absolute;
+  padding: 40px;
 }
 
-.bg-4 {
-  /* The image used */
-  background-image: url("https://i.imgur.com/fL7edmy.jpg");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.sign-up-box h1, .sign-up-box h2, .sign-up-box h3, .sign-up-box h4, .sign-up-box h5, .sign-up-box h6 {
+  font-weight: 100;
+  color: white;
+}
 
-  overflow: hidden;
+.mc-form-button {
+  background-color: white;
+  color: #232728;
+  border: 1px solid #232728;
+  font-weight: 300;
+}
 
-  /* Full height */
-  height: 100%;
+input {
+  width: 100%;
+}
+
+div.mce_inline_error {
+  margin-top: 32px !important;
+  font-weight: 100 !important;
+}
+
+.signup-clear {
+  height: 200px;
+}
+
+.show-box-wrapper {
+  margin: 32px;
+}
+
+.show-box {
+  border: 1px solid #232728;
+  padding: 16px;
+}
+
+.show-box-header {
+  border: 1px solid #232728;
+  background-color: white;
+  margin-top: -40px;
+}
+
+.show-box h1, .show-box h2, .show-box h3, .show-box h4, .show-box h5, .show-box h6 {
+  font-weight: 100;
+  margin: 0px;
+  padding: 8px;
+}
+
+.show-list {
+  padding: 16px;
+}
+
+.show-box-wrapper-clear {
+  height: 48px;
 }
