@@ -45,7 +45,7 @@ a.disabled, .nav-link.disabled, .dropdown-item.disabled, .disabled {
 }
 
 .sign-up-box {
-  width: calc(100vw - 49px);
+  width: 97%;
   margin-top: 24px;
   background-color: #232728;
   left: 18px;
