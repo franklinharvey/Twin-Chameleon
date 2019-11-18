@@ -30,13 +30,15 @@ body {
     border-right: 10px solid #232728;  
 }
 
-.nav-link, a {
+.nav-link, a, .dropdown-item {
   color: #232728;
-  transition: color 100ms;
+  border: 1px solid rgba(0, 0, 0, 0);
+  transition: border-color 100ms;
 }
 
-.nav-link:hover, a:hover {
-  color: midnightblue;
+.nav-link:hover, a:hover, .dropdown-item:hover {
+  border: 1px solid #232728;
+  color: #232728;
   text-decoration: none;
 }
 
