@@ -8,26 +8,15 @@ html {
   }
 }
 
-body:before, body:after {
-    content: "";
-    position: fixed;
-    background: #232728;
-    left: 0;
-    right: 0;
-    height: 10px;
-}
-
-body:before {
-    top: 0;
-}
-
-body:after {
-    bottom: 0;
-}
-
 body {
-    border-left: 10px solid #232728;
-    border-right: 10px solid #232728;  
+    outline-width: 10px;
+    outline-color: #232728;
+    outline-offset: -22px;
+    outline-style: solid;
+}
+
+html, body {
+  overflow-x: hidden;
 }
 
 .nav-link, a, .dropdown-item {
