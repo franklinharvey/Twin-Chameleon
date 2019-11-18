@@ -45,10 +45,10 @@ a.disabled, .nav-link.disabled, .dropdown-item.disabled, .disabled {
 }
 
 .sign-up-box {
-  width: 100vw;
+  width: calc(100vw - 40px);
   margin-top: 24px;
   background-color: #232728;
-  left: 0px;
+  left: 12px;
   position: absolute;
   padding: 40px;
   z-index: 100;
