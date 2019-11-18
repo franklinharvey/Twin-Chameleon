@@ -44,14 +44,27 @@ a.disabled, .nav-link.disabled, .dropdown-item.disabled, .disabled {
   font-size: 2em;
 }
 
-.sign-up-box {
-  width: 97%;
-  margin-top: 24px;
-  background-color: #232728;
-  left: 18px;
-  position: absolute;
-  padding: 40px;
-  z-index: 100;
+@media only screen and (max-width: 600px) {
+  .sign-up-box {
+    width: 91%;
+    margin-top: 24px;
+    background-color: #232728;
+    position: absolute;
+    padding: 40px;
+    z-index: 100;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .sign-up-box {
+    width: 97%;
+    margin-top: 24px;
+    background-color: #232728;
+    left: 18px;
+    position: absolute;
+    padding: 40px;
+    z-index: 100;
+  }
 }
 
 .sign-up-box h1, .sign-up-box h2, .sign-up-box h3, .sign-up-box h4, .sign-up-box h5, .sign-up-box h6 {
