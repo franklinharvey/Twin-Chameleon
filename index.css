@@ -9,44 +9,63 @@ html {
 }
 
 body {
-    outline-width: 10px;
-    outline-color: #232728;
-    outline-offset: -22px;
-    outline-style: solid;
+  outline-width: 10px;
+  outline-color: #232728;
+  outline-offset: -22px;
+  outline-style: solid;
 }
 
-html, body {
+html,
+body {
   overflow-x: hidden;
 }
 
-.nav-link, a, .dropdown-item {
+.nav-link,
+a,
+.dropdown-item {
   color: #232728;
   border: 1px solid rgba(0, 0, 0, 0);
   transition: border-color 100ms;
 }
 
-.nav-link:hover, a:hover, .dropdown-item:hover {
+.nav-link:hover,
+a:hover,
+.dropdown-item:hover {
   border: 1px solid #232728;
   color: #232728;
   text-decoration: none;
 }
 
-a.disabled, .nav-link.disabled, .dropdown-item.disabled, .disabled {
+a.disabled,
+.nav-link.disabled,
+.dropdown-item.disabled,
+.disabled {
   color: #8f98a0;
 }
 
 .fab-spacer {
   margin-right: 8px;
-  min-width: 20px;  
+  min-width: 20px;
 }
 
 .social-icon {
   font-size: 2em;
 }
 
+.sign-up-box {
+  width: calc(100vw - 46px);
+  margin-top: 24px;
+  background-color: #232728;
+  position: absolute;
+  padding: 40px;
+  z-index: 100;
+  left: 18px;
+}
+
 @media only screen and (max-width: 600px) {
+  /* small */
   .sign-up-box {
-    width: 91%;
+    width: calc(100vw - 46px);
     margin-top: 24px;
     background-color: #232728;
     position: absolute;
@@ -56,8 +75,9 @@ a.disabled, .nav-link.disabled, .dropdown-item.disabled, .disabled {
 }
 
 @media only screen and (min-width: 768px) {
+  /* big */
   .sign-up-box {
-    width: 97%;
+    width: calc(100vw - 46px);
     margin-top: 24px;
     background-color: #232728;
     left: 18px;
@@ -67,7 +87,12 @@ a.disabled, .nav-link.disabled, .dropdown-item.disabled, .disabled {
   }
 }
 
-.sign-up-box h1, .sign-up-box h2, .sign-up-box h3, .sign-up-box h4, .sign-up-box h5, .sign-up-box h6 {
+.sign-up-box h1,
+.sign-up-box h2,
+.sign-up-box h3,
+.sign-up-box h4,
+.sign-up-box h5,
+.sign-up-box h6 {
   font-weight: 100;
   color: white;
 }
@@ -110,6 +135,34 @@ div.mce_inline_error {
   height: 240px;
 }
 
+.embed-wrapper {
+  margin: 0px 0px 0px 0px;
+}
+
+.mark {
+  background-color: #232728;
+  color: white;
+  transition: all 600ms;
+}
+
+a.mark:hover {
+  background-color: midnightblue;
+  color: white;
+}
+
+.embed-header {
+  margin: 8px;
+  padding: 0px;
+}
+
+.video-embed {
+  width: calc(100vw - 200px);
+  height: calc(calc(100vw - 200px) / 1.5);
+  min-height: 160px;
+  min-width: 200px;
+  max-height: calc(100vh * 0.6);
+}
+
 .show-box-wrapper {
   margin: 32px auto;
 }
@@ -125,7 +178,12 @@ div.mce_inline_error {
   margin-top: -40px;
 }
 
-.show-box h1, .show-box h2, .show-box h3, .show-box h4, .show-box h5, .show-box h6 {
+.show-box h1,
+.show-box h2,
+.show-box h3,
+.show-box h4,
+.show-box h5,
+.show-box h6 {
   font-weight: 200;
   margin: 0px;
   padding: 8px;
