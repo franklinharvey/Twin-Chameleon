@@ -1,163 +1,333 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-<head>
-	<!-- Required meta tags -->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
 
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/brands.css"
+      integrity="sha384-n9+6/aSqa9lBidZMRCQHTHKJscPq6NW4pCQBiMmHdUCvPN8ZOg2zJJTkC7WIezWv"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/fontawesome.css"
+      integrity="sha384-vd1e11sR28tEK9YANUtpIOdjGW14pS87bUBuOIoBILVWLFnS+MCX9T6MMf0VdPGq"
+      crossorigin="anonymous"
+    />
 
-	<!-- Font Awesome -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/brands.css"
-		integrity="sha384-n9+6/aSqa9lBidZMRCQHTHKJscPq6NW4pCQBiMmHdUCvPN8ZOg2zJJTkC7WIezWv" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/fontawesome.css"
-		integrity="sha384-vd1e11sR28tEK9YANUtpIOdjGW14pS87bUBuOIoBILVWLFnS+MCX9T6MMf0VdPGq" crossorigin="anonymous">
+    <link rel="stylesheet" href="/index.css?v=1.6" />
 
-	<link rel="stylesheet" href="/mystyle.css?v=1.4">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-152710286-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-152710286-1"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag() { dataLayer.push(arguments); }
-		gtag('js', new Date());
+      gtag("config", "UA-152710286-1");
+    </script>
 
-		gtag('config', 'UA-152710286-1');
-	</script>
+    <title>Twin Chameleon</title>
+  </head>
 
-	<title>Twin Chameleon</title>
-</head>
-
-<body class="body-bordered">
-	<div class="container">
-		<!-- logo -->
-		<div class="row justify-content-md-center justify-content-center">
-			<div class="col-10 col-sm-8 col-md-6">
-				<img src="logo.png" class="img-fluid" alt="Responsive image">
-			</div>
-		</div>
-		<!-- top nav -->
-		<ul class="nav justify-content-center">
-			<li class="nav-item">
-				<div class="dropdown">
-					<a class="dropdown-toggle nav-link" href="#" id="dropdownMenuLink" data-toggle="dropdown"
-						aria-haspopup="true" aria-expanded="false">
-						Music
-					</a>
-					<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-						<a class="dropdown-item disabled" href="#"><i class="fab fab-spacer fa-itunes-note"></i>Apple
-							Music</a>
-						<a class="dropdown-item" href="https://open.spotify.com/artist/4yGNydnlFldm81Wy3PWXFF"
-							target="_blank"><i class="fab fab-spacer fa-spotify"></i>Spotify</a>
-						<a class="dropdown-item" href="https://soundcloud.com/twinchameleon" target="_blank"><i
-								class="fab fab-spacer fa-soundcloud"></i>SoundCloud</a>
-					</div>
-				</div>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="https://www.youtube.com/channel/UCEM7mcgLC7B0D9dpJ7MjRcw"
-					target="_blank">Videos</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="https://itsfineline.com/collections/twin-chameleon"
-					target="_blank">Store</a>
-			</li>
-			<!-- <li class="nav-item">
+  <body class="body-bordered">
+    <div class="container">
+      <!-- logo -->
+      <div class="row justify-content-md-center justify-content-center">
+        <div class="col-10 col-sm-8 col-md-4">
+          <img
+            src="logo.svg"
+            class="img-fluid"
+            style="margin: 40px 0px"
+            alt="Twin Chameleon Logo"
+          />
+        </div>
+      </div>
+      <!-- embed -->
+      <div
+        class="row justify-content-md-center justify-content-center embed-wrapper"
+      >
+        <h2 class="embed-header">COUNTING SHEEP</h2>
+        <iframe
+          class="video-embed"
+          src="https://www.youtube.com/embed/hyne8Q013Ko"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <h2 class="embed-header">LISTEN NOW</h2>
+      </div>
+      <!-- listen links -->
+      <!-- <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a
+            class="nav-link mark"
+            href="https://music.apple.com/us/album/counting-sheep-single/1494599082"
+            ><i class="fab fab-spacer fa-itunes-note"></i>Apple Music</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link mark"
+            href="https://twinchameleon.bandcamp.com/track/counting-sheep"
+            ><i class="fab fab-spacer fa-bandcamp"></i>Bandcamp</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link mark"
+            href="https://open.spotify.com/album/1mveD8PDO3tZ2zHnnGEmFB"
+            ><i class="fab fab-spacer fa-spotify"></i>Spotify</a
+          >
+        </li>
+      </ul> -->
+      <div style="margin-bottom: 60px;"></div>
+      <!-- top nav -->
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <div class="dropdown">
+            <a
+              class="dropdown-toggle nav-link"
+              href="#"
+              id="dropdownMenuLink"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Music
+            </a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a
+                class="dropdown-item"
+                href="https://music.apple.com/us/artist/twin-chameleon/1152957363"
+                target="_blank"
+                ><i class="fab fab-spacer fa-itunes-note"></i>Apple Music</a
+              >
+              <a
+                class="dropdown-item"
+                href="https://open.spotify.com/artist/4yGNydnlFldm81Wy3PWXFF"
+                target="_blank"
+                ><i class="fab fab-spacer fa-spotify"></i>Spotify</a
+              >
+              <a
+                class="dropdown-item"
+                href="https://twinchameleon.bandcamp.com/"
+                target="_blank"
+                ><i class="fab fab-spacer fa-bandcamp"></i>Bandcamp</a
+              >
+              <a
+                class="dropdown-item"
+                href="https://soundcloud.com/twinchameleon"
+                target="_blank"
+                ><i class="fab fab-spacer fa-soundcloud"></i>SoundCloud</a
+              >
+            </div>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            href="https://www.youtube.com/channel/UCEM7mcgLC7B0D9dpJ7MjRcw"
+            target="_blank"
+            >Videos</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            href="https://itsfineline.com/collections/twin-chameleon"
+            target="_blank"
+            >Store</a
+          >
+        </li>
+        <!-- <li class="nav-item">
 				<a class="nav-link" href="#">Newsletter</a>
 			</li> -->
-		</ul>
-		<!-- social links -->
-		<ul class="nav justify-content-center">
-			<li class="nav-item">
-				<a class="nav-link" href="https://www.instagram.com/twinchameleon/" target="_blank"><i
-						class="fab social-icon fa-instagram"></i></a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="https://www.facebook.com/twinchameleon/" target="_blank"><i
-						class="fab social-icon fa-facebook"></i></a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="https://twitter.com/twinchameleon" target="_blank"><i
-						class="fab social-icon fa-twitter"></i></a>
-			</li>
-		</ul>
-		<!-- sign up box -->
-		<div class="sign-up-box container-fluid">
-			<h6 class="text-center">Sign up for exclusive merch and early access to new music and videos</h6>
-			<br>
-			<!-- Begin Mailchimp Signup Form -->
-			<div id="mc_embed_signup">
-				<form
-					action="https://twinchameleon.us5.list-manage.com/subscribe/post?u=375330619df2c29a91c803571&amp;id=061f99361b"
-					method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank"
-					novalidate>
-					<div id="mc_embed_signup_scroll">
-						<div class="row justify-content-center">
-							<div class="col-6 col-md-4">
-								<div class="mc-field-group">
-									<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL"
-										placeholder="Email Address">
-								</div>
-							</div>
-							<div class="col-6 col-sm-3 col-md-2">
-								<input type="submit" value="Join" name="subscribe" id="mc-embedded-subscribe"
-									class="button mc-form-button">
-							</div>
-						</div>
-						<div id="mce-responses" class="clear">
-							<div class="response" id="mce-error-response" style="display:none"></div>
-							<div class="response" id="mce-success-response" style="display:none"></div>
-						</div>
-						<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-						<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
-								name="b_375330619df2c29a91c803571_061f99361b" tabindex="-1" value=""></div>
-					</div>
-				</form>
-			</div>
-			<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
-			<script
-				type='text/javascript'>(function ($) { window.fnames = new Array(); window.ftypes = new Array(); fnames[0] = 'EMAIL'; ftypes[0] = 'email'; fnames[1] = 'FNAME'; ftypes[1] = 'text'; fnames[2] = 'LNAME'; ftypes[2] = 'text'; fnames[3] = 'ADDRESS'; ftypes[3] = 'address'; fnames[4] = 'PHONE'; ftypes[4] = 'phone'; fnames[5] = 'BIRTHDAY'; ftypes[5] = 'birthday'; }(jQuery)); var $mcj = jQuery.noConflict(true);</script>
-			<!--End mc_embed_signup-->
-		</div>
-		<!-- clear the signup form -->
-		<div class="signup-clear"></div>
-		<!-- shows -->
-		<div class="row justify-content-center">
-			<div class="col-10 col-sm-8">
-				<script charset="utf-8"
-					src="https://widget.bandsintown.com/main.min.js">
-				</script>
-				<a class="bit-widget-initializer"
-				   data-artist-name="Twin Chameleon" 
-				   data-display-local-dates="false" 
-				   data-display-past-dates="true" 
-				   data-auto-style="false" data-text-color="#000000" 
-				   data-link-color="#232728" 
-				   data-background-color="rgba(0,0,0,0)" 
-				   data-display-limit="15" 
-				   data-display-start-time="true" 
-				   data-link-text-color="#fff" 
-				   data-display-lineup="true" 
-				   data-display-play-my-city="false" 
-				   data-separator-color="rgba(255, 255, 255, 0.5)"></a>
-			</div>
-		</div>
-	</div>
+      </ul>
+      <!-- social links -->
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            href="https://www.instagram.com/twinchameleon/"
+            target="_blank"
+            ><i class="fab social-icon fa-instagram"></i
+          ></a>
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            href="https://www.facebook.com/twinchameleon/"
+            target="_blank"
+            ><i class="fab social-icon fa-facebook"></i
+          ></a>
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            href="https://twitter.com/twinchameleon"
+            target="_blank"
+            ><i class="fab social-icon fa-twitter"></i
+          ></a>
+        </li>
+      </ul>
+      <!-- sign up box -->
+      <div class="sign-up-box container-fluid">
+        <h6 class="text-center">
+          Sign up for exclusive merch and early access to new music and videos
+        </h6>
+        <br />
+        <!-- Begin Mailchimp Signup Form -->
+        <div id="mc_embed_signup">
+          <form
+            action="https://twinchameleon.us5.list-manage.com/subscribe/post?u=375330619df2c29a91c803571&amp;id=061f99361b"
+            method="post"
+            id="mc-embedded-subscribe-form"
+            name="mc-embedded-subscribe-form"
+            target="_blank"
+            novalidate
+          >
+            <div id="mc_embed_signup_scroll">
+              <div class="row justify-content-center">
+                <div class="col-6 col-md-4">
+                  <div class="mc-field-group">
+                    <input
+                      type="email"
+                      value=""
+                      name="EMAIL"
+                      class="email"
+                      id="mce-EMAIL"
+                      placeholder="Email Address"
+                    />
+                  </div>
+                </div>
+                <div class="col-6 col-sm-3 col-md-2">
+                  <input
+                    type="submit"
+                    value="Join"
+                    name="subscribe"
+                    id="mc-embedded-subscribe"
+                    class="button mc-form-button"
+                  />
+                </div>
+              </div>
+              <div id="mce-responses" class="clear">
+                <div
+                  class="response"
+                  id="mce-error-response"
+                  style="display:none"
+                ></div>
+                <div
+                  class="response"
+                  id="mce-success-response"
+                  style="display:none"
+                ></div>
+              </div>
+              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+              <div
+                style="position: absolute; left: -5000px;"
+                aria-hidden="true"
+              >
+                <input
+                  type="text"
+                  name="b_375330619df2c29a91c803571_061f99361b"
+                  tabindex="-1"
+                  value=""
+                />
+              </div>
+            </div>
+          </form>
+        </div>
+        <script
+          type="text/javascript"
+          src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"
+        ></script>
+        <script type="text/javascript">
+          (function($) {
+            window.fnames = new Array();
+            window.ftypes = new Array();
+            fnames[0] = "EMAIL";
+            ftypes[0] = "email";
+            fnames[1] = "FNAME";
+            ftypes[1] = "text";
+            fnames[2] = "LNAME";
+            ftypes[2] = "text";
+            fnames[3] = "ADDRESS";
+            ftypes[3] = "address";
+            fnames[4] = "PHONE";
+            ftypes[4] = "phone";
+            fnames[5] = "BIRTHDAY";
+            ftypes[5] = "birthday";
+          })(jQuery);
+          var $mcj = jQuery.noConflict(true);
+        </script>
+        <!--End mc_embed_signup-->
+      </div>
+      <!-- clear the signup form -->
+      <div class="signup-clear"></div>
+      <!-- shows -->
+      <div class="row justify-content-center bandsintown">
+        <div class="col-10 col-sm-8">
+          <script
+            charset="utf-8"
+            src="https://widget.bandsintown.com/main.min.js"
+          ></script>
+          <a
+            class="bit-widget-initializer"
+            data-artist-name="Twin Chameleon"
+            data-display-local-dates="false"
+            data-display-past-dates="true"
+            data-auto-style="false"
+            data-text-color="#000000"
+            data-link-color="#232728"
+            data-background-color="rgba(0,0,0,0)"
+            data-display-limit="15"
+            data-display-start-time="true"
+            data-link-text-color="#fff"
+            data-display-lineup="true"
+            data-display-play-my-city="false"
+            data-separator-color="rgba(255, 255, 255, 0.5)"
+          ></a>
+        </div>
+      </div>
+    </div>
 
-	<!-- Optional JavaScript -->
-	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-		crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-		crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-		crossorigin="anonymous"></script>
-</body>
-
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
