@@ -140,6 +140,7 @@ div.mce_inline_error {
 }
 
 .mark {
+  margin-top: 8px;
   background-color: #232728;
   color: white;
   transition: all 600ms;
