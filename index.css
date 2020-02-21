@@ -136,14 +136,17 @@ div.mce_inline_error {
 }
 
 .embed-wrapper {
-  margin: 0px 0px 0px 0px;
+  margin: 0px 0px 40px 0px;
 }
 
 .mark {
-  margin-top: 8px;
   background-color: #232728;
   color: white;
   transition: all 600ms;
+}
+
+a.mark {
+  margin-top: 8px;
 }
 
 a.mark:hover {
