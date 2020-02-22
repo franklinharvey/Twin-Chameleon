@@ -53,38 +53,13 @@ a.disabled,
 }
 
 .sign-up-box {
-  width: calc(100vw - 46px);
+  width: calc(100vw - 40px);
   margin-top: 24px;
   background-color: #232728;
   position: absolute;
   padding: 40px;
   z-index: 100;
   left: 18px;
-}
-
-@media only screen and (max-width: 600px) {
-  /* small */
-  .sign-up-box {
-    width: calc(100vw - 46px);
-    margin-top: 24px;
-    background-color: #232728;
-    position: absolute;
-    padding: 40px;
-    z-index: 100;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  /* big */
-  .sign-up-box {
-    width: calc(100vw - 46px);
-    margin-top: 24px;
-    background-color: #232728;
-    left: 18px;
-    position: absolute;
-    padding: 40px;
-    z-index: 100;
-  }
 }
 
 .sign-up-box h1,
