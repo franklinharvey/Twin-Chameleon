@@ -1,0 +1,183 @@
+@import url("https://rsms.me/inter/inter.css");
+html {
+  font-family: "Inter", sans-serif;
+}
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: "Inter var", sans-serif;
+  }
+}
+
+body {
+  outline-width: 10px;
+  outline-color: #232728;
+  color: #232728;
+  outline-offset: -22px;
+  outline-style: solid;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+.nav-link,
+a,
+.dropdown-item {
+  color: #232728;
+  border: 1px solid rgba(0, 0, 0, 0);
+  transition: border-color 100ms;
+}
+
+.nav-link:hover,
+a:hover,
+.dropdown-item:hover {
+  border: 1px solid #232728;
+  color: #232728;
+  text-decoration: none;
+}
+
+a.disabled,
+.nav-link.disabled,
+.dropdown-item.disabled,
+.disabled {
+  color: #8f98a0;
+}
+
+.fab-spacer {
+  margin-right: 8px;
+  min-width: 20px;
+}
+
+.social-icon {
+  font-size: 2em;
+}
+
+.sign-up-box {
+  width: calc(100vw - 40px);
+  margin-top: 24px;
+  background-color: #232728;
+  position: absolute;
+  padding: 40px;
+  z-index: 100;
+  left: 18px;
+}
+
+.sign-up-box h1,
+.sign-up-box h2,
+.sign-up-box h3,
+.sign-up-box h4,
+.sign-up-box h5,
+.sign-up-box h6 {
+  font-weight: 100;
+  color: white;
+}
+
+.mc-form-button {
+  background-color: white;
+  color: #232728;
+  border: none;
+  font-weight: 300;
+}
+
+#mc-embedded-subscribe {
+  transition: border-color 500ms, color 200ms;
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+
+#mc-embedded-subscribe:hover {
+  color: midnightblue;
+  border: 1px solid midnightblue;
+}
+
+input {
+  width: 100%;
+  border: none;
+  border-radius: 0px;
+  height: 32px;
+}
+
+input::placeholder {
+  font-weight: 100;
+  padding-left: 4px;
+}
+
+div.mce_inline_error {
+  margin-top: 32px !important;
+  font-weight: 100 !important;
+}
+
+.signup-clear {
+  height: 240px;
+}
+
+.embed-wrapper {
+  margin: 0px 0px 40px 0px;
+}
+
+.mark {
+  background-color: #232728;
+  color: white;
+  transition: all 600ms;
+}
+
+a.mark {
+  margin-top: 8px;
+}
+
+a.mark:hover {
+  background-color: #232728;
+  color: white;
+  box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.5);
+}
+
+.embed-header {
+  margin: 8px;
+  padding: 0px;
+}
+
+.video-embed {
+  width: calc(100vw - 200px);
+  height: calc(calc(100vw - 200px) / 1.5);
+  min-height: 160px;
+  min-width: 200px;
+  max-height: calc(100vh * 0.6);
+}
+
+.show-box-wrapper {
+  margin: 32px auto;
+}
+
+.show-box {
+  border: 1px solid #232728;
+  padding: 16px;
+}
+
+.show-box-header {
+  border: 1px solid #232728;
+  background-color: white;
+  margin-top: -40px;
+}
+
+.show-box h1,
+.show-box h2,
+.show-box h3,
+.show-box h4,
+.show-box h5,
+.show-box h6 {
+  font-weight: 200;
+  margin: 0px;
+  padding: 8px;
+}
+
+.show-list {
+  padding: 16px;
+}
+
+.show-box-wrapper-clear {
+  height: 48px;
+}
+
+.ticket-link {
+  font-weight: 400;
+}
