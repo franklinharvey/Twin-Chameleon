@@ -2,7 +2,7 @@ const _x = document;
 const _y = "innerHTML";
 const _z = "getElementById";
 const _w = "createElement";
-const releaseDate = new Date("2021-08-21T04:00:00Z");
+const releaseDate = new Date("2021-08-20T04:00:00Z");
 const countDownDate = releaseDate.getTime();
 render();
 
