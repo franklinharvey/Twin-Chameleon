@@ -10,8 +10,8 @@ html {
 
 body {
   outline-width: 10px;
-  outline-color: #232728;
-  color: #232728;
+  outline-color: rgb(28, 28, 35);
+  color: rgb(28, 28, 35);
   outline-offset: -22px;
   outline-style: solid;
 }
@@ -24,7 +24,7 @@ body {
 .nav-link,
 a,
 .dropdown-item {
-  color: #232728;
+  color: rgb(28, 28, 35);
   border: 1px solid rgba(0, 0, 0, 0);
   transition: border-color 100ms;
 }
@@ -32,8 +32,8 @@ a,
 .nav-link:hover,
 a:hover,
 .dropdown-item:hover {
-  border: 1px solid #232728;
-  color: #232728;
+  border: 1px solid rgb(28, 28, 35);
+  color: rgb(28, 28, 35);
   text-decoration: none;
 }
 
@@ -56,7 +56,7 @@ a.disabled,
 .sign-up-box {
   width: calc(100vw - 40px);
   margin-top: 24px;
-  background-color: #232728;
+  background-color: rgb(28, 28, 35);
   position: absolute;
   padding: 40px;
   z-index: 100;
@@ -75,7 +75,7 @@ a.disabled,
 
 .mc-form-button {
   background-color: white;
-  color: #232728;
+  color: rgb(28, 28, 35);
   border: none;
   font-weight: 300;
 }
@@ -86,8 +86,8 @@ a.disabled,
 }
 
 #mc-embedded-subscribe:hover {
-  color: midnightblue;
-  border: 1px solid midnightblue;
+  color: rgb(28, 28, 35);
+  border: 1px solid rgb(28, 28, 35);
 }
 
 input {
@@ -115,33 +115,52 @@ div.mce_inline_error {
   margin: 0px 0px 40px 0px;
 }
 
-.mark {
-  background-color: #232728;
+.listen-button button {
+  background-color: rgb(28, 28, 35);
   color: white;
   transition: all 600ms;
 }
 
-a.mark {
-  margin-top: 8px;
-}
-
-a.mark:hover {
-  background-color: #232728;
+.listen-button button:hover {
+  background-color: rgb(60, 60, 75);
   color: white;
   box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.5);
+}
+
+.listen-button {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.listen-form {
+  padding: 16px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
 }
 
 .embed-header {
   margin: 8px;
   padding: 0px;
+  text-align: center;
 }
 
 .video-embed {
-  width: calc(100vw - 200px);
+  width: 100%;
   height: calc(calc(100vw - 200px) / 1.5);
   min-height: 160px;
   min-width: 200px;
-  max-height: calc(100vh * 0.6);
+  /* max-height: calc(100vh * 0.6); */
+}
+
+.video-embed-mock {
+  padding: 100px 40px;
+  text-align: center;
 }
 
 .show-box-wrapper {
@@ -149,12 +168,12 @@ a.mark:hover {
 }
 
 .show-box {
-  border: 1px solid #232728;
+  border: 1px solid rgb(28, 28, 35);
   padding: 16px;
 }
 
 .show-box-header {
-  border: 1px solid #232728;
+  border: 1px solid rgb(28, 28, 35);
   background-color: white;
   margin-top: -40px;
 }
@@ -180,4 +199,8 @@ a.mark:hover {
 
 .ticket-link {
   font-weight: 400;
+}
+
+.hide {
+  display: none;
 }
